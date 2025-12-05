@@ -1,0 +1,210 @@
+cora:
+  inter: True
+  intra: True
+  nclass: 7
+  nlayer: 2
+  num_heads: 2
+  hidden_dim: 32
+  epoch: 2000
+  lr: 0.0002
+  weight_decay: 0.0001
+  tran_dropout: 0.2
+  feat_dropout: 0.6
+  prop_dropout: 0.2
+  norm: 'none'
+
+citeseer:
+  inter: True
+  intra: True
+  nclass: 6
+  nlayer: 2
+  num_heads: 2
+  hidden_dim: 32
+  epoch: 2000
+  lr: 0.0002
+  weight_decay: 0.001
+  tran_dropout: 0.0
+  feat_dropout: 0.7
+  prop_dropout: 0.5
+  norm: 'none'
+
+pubmed:
+  inter: True
+  intra: True
+  nclass: 3
+  nlayer: 2
+  num_heads: 4
+  hidden_dim: 64
+  epoch: 2000
+  lr: 0.0002
+  weight_decay: 0.0001
+  tran_dropout: 0.1
+  feat_dropout: 0.4
+  prop_dropout: 0.1
+  norm: 'none'
+
+photo:
+  inter: True
+  intra: True
+  nclass: 8
+  nlayer: 2
+  num_heads: 4
+  hidden_dim: 32
+  epoch: 2000
+  lr: 0.0002
+  weight_decay: 0.0001
+  tran_dropout: 0.2
+  feat_dropout: 0.3
+  prop_dropout: 0.2
+  norm: 'none'
+
+computers:
+  inter: True
+  intra: True
+  nclass: 10
+  nlayer: 2
+  num_heads: 1
+  hidden_dim: 256
+  epoch: 2000
+  lr: 0.001
+  weight_decay: 0.0001
+  tran_dropout: 0.2
+  feat_dropout: 0.5
+  prop_dropout: 0.2
+  norm: 'none'
+
+chameleon:
+  inter: True
+  intra: True
+  nclass: 5
+  nlayer: 2
+  num_heads: 4
+  hidden_dim: 32
+  epoch: 2000
+  lr: 0.001
+  weight_decay: 0.0005
+  tran_dropout: 0.2
+  feat_dropout: 0.4
+  prop_dropout: 0.5
+  norm: 'none'
+
+squirrel:
+  inter: True
+  intra: True
+  nclass: 5
+  nlayer: 2
+  num_heads: 2
+  hidden_dim: 32
+  epoch: 2000
+  lr: 0.001
+  weight_decay: 0.001
+  tran_dropout: 0.1
+  feat_dropout: 0.4
+  prop_dropout: 0.4
+  norm: 'none'
+
+actor:
+  inter: True
+  intra: True
+  nclass: 5
+  nlayer: 2
+  num_heads: 1
+  hidden_dim: 32
+  epoch: 2000
+  lr: 0.0002
+  weight_decay: 0.0001
+  tran_dropout: 0.5
+  feat_dropout: 0.8
+  prop_dropout: 0.5
+  norm: 'none'
+
+penn:
+  inter: True
+  intra: True
+  nclass: 2
+  nlayer: 1
+  num_heads: 1
+  hidden_dim: 64
+  epoch: 2000
+  lr: 0.001
+  weight_decay: 0.001
+  tran_dropout: 0.0
+  feat_dropout: 0.4
+  prop_dropout: 0.4
+  norm: 'batch'
+
+arxiv:
+  inter: True
+  intra: True
+  nclass: 40
+  nlayer: 1
+  num_heads: 1
+  hidden_dim: 512
+  epoch: 2000
+  lr: 0.001
+  weight_decay: 0.0
+  tran_dropout: 0.1
+  feat_dropout: 0.1
+  prop_dropout: 0.1
+  norm: 'layer'
+
+products:
+  inter: True
+  intra: True
+  nclass: 47
+  nlayer: 1
+  num_heads: 1
+  hidden_dim: 512
+  epoch: 2000
+  lr: 0.001
+  weight_decay: 0.0001
+  tran_dropout: 0.1
+  feat_dropout: 0.3
+  prop_dropout: 0.1
+  norm: 'layer'
+
+flickr:
+  inter: True
+  intra: True
+  nclass: 7
+  nlayer: 1
+  num_heads: 1
+  hidden_dim: 512
+  epoch: 4000
+  patience: 200
+  lr: 0.001
+  weight_decay: 0.0
+  tran_dropout: 0.1
+  feat_dropout: 0.2
+  prop_dropout: 0.1
+  norm: 'layer'
+
+reddit:
+  inter: True
+  intra: True
+  nclass: 41
+  nlayer: 1
+  num_heads: 1
+  hidden_dim: 512
+  epoch: 2000
+  lr: 0.001
+  weight_decay: 0.0
+  tran_dropout: 0.1
+  feat_dropout: 0.2
+  prop_dropout: 0.1
+  norm: 'layer'
+
+yelp:
+  inter: True
+  intra: True
+  nclass: 100
+  nlayer: 1
+  num_heads: 1
+  hidden_dim: 512
+  epoch: 2000
+  lr: 0.001
+  weight_decay: 0.0
+  tran_dropout: 0.1
+  feat_dropout: 0.2
+  prop_dropout: 0.1
+  norm: 'layer'

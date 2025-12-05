@@ -1,0 +1,8 @@
+*.pt
+__pycache__/
+ogbn_arxiv/
+ogbn_products/
+reddit/
+flickr/
+yelp/
+logs/
